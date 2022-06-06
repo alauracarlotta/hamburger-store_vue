@@ -1,27 +1,27 @@
 {
-  "name": "hamburger_store-vue",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "backend": "json-server --watch db/db.json"
-  },
-  "dependencies": {
-    "core-js": "^3.8.3",
-    "json-server": "^0.17.0",
-    "vue": "^3.2.13",
-    "vue-router": "^4.0.3"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^8.17.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-vue": "^9.1.0",
-    "prettier": "^2.6.2"
-  }
+	"name": "hamburger_store-vue",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"backend": "json-server --watch db/db.json"
+	},
+	"dependencies": {
+		"core-js": "^3.8.3",
+		"json-server": "^0.17.0",
+		"vue": "^3.2.13",
+		"vue-router": "^4.0.3"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~5.0.0",
+		"@vue/cli-plugin-router": "~5.0.0",
+		"@vue/cli-service": "~5.0.0",
+		"eslint": "^8.17.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-vue": "^9.1.0",
+		"prettier": "^2.6.2"
+	}
 }
