@@ -1,5 +1,5 @@
 <template>
-	<NavbarMenu />
+	<NavbarMenu :logo_header="logoHeader" :alt_header="altHeader"/>
 	<router-view />
 	<FooterMain />
 </template>
@@ -14,9 +14,28 @@ export default {
 	components: {
     	NavbarMenu,
 		FooterMain,
+	},
+
+	data() {
+		return {
+			logoHeader: '/img/logo.png',
+			altHeader: 'Make your burguer',
+		}
 	}
 }
 </script>
 
-<style>
+<style lang="scss">
+* {
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+
+	.main-container {
+		padding-top: 2rem;
+
+		h1 {
+			text-align: center;
+		}
+	}
+}
 </style>
