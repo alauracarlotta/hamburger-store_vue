@@ -21,4 +21,4 @@ export default {
 }
 </script>
 
-<style lang="scss" src="./NavbarMenu.scss"  scoped />
+<style lang="scss" src="./NavbarMenu.scss" scoped />

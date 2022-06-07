@@ -13,4 +13,4 @@ export default {
 }
 </script>
 
-<style lang="scss" src="./FooterMain.scss"  scoped />
+<style lang="scss" src="./FooterMain.scss" scoped />
