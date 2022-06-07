@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import NavbarMenu from './components/NavbarMenu.vue';
-import FooterMain from './components/FooterMain.vue';
+import NavbarMenu from './components/Base/NavbarMenu/NavbarMenu.vue';
+import FooterMain from './components/Base/FooterMain/FooterMain.vue';
 
 export default {
 	name: 'App',
@@ -25,17 +25,4 @@ export default {
 }
 </script>
 
-<style lang="scss">
-* {
-	box-sizing: border-box;
-	font-family: Helvetica, sans-serif;
-
-	.main-container {
-		padding-top: 2rem;
-
-		h1 {
-			text-align: center;
-		}
-	}
-}
-</style>
+<style lang="scss" src="./App.scss" />

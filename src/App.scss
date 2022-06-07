@@ -1,0 +1,13 @@
+* {
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+
+	.main-container {
+		min-height: 200px;
+		padding-top: 2rem;
+		
+		h1 {
+			text-align: center;
+		}
+	}
+}

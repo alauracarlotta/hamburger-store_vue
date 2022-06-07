@@ -21,32 +21,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-
-#navbarMenu{
-	background-color: #222;
-	border-bottom: 4px solid #111;
-	padding: 15px 50px;
-
-	#logoNavbarMenu {
-		height: 40px;
-		width: 40px;
-	}
-
-	#headerLinks {
-		a {
-			color: #FCBA03;
-			margin: .75rem;
-			padding-bottom: .25rem;
-			text-decoration-line: none;
-			transition: .5s;
-
-			&:hover {
-				color: #FFF;
-				border-bottom: 1px double #FFF;
-			}
-		}
-	}
-}
-
-</style>
+<style lang="scss" src="./NavbarMenu.scss"  scoped />
