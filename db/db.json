@@ -1,122 +1,116 @@
 {
-    "ingredientes": {
-
-        "paes": [
-            {
-                "id": 1,
-                "tipo": "Italiano Branco"
-            },
-            {
-                "id": 2,
-                "tipo": "3 Queijos"
-            },
-            {
-                "id": 3,
-                "tipo": "Parmesão e Orégano"
-            },
-            {
-                "id": 4,
-                "tipo": "Integral"
-            }
-        ],
-
-        "tamanhoPao": [
-            {
-                "id": 1,
-                "tipo": "15cm"
-            },
-            {
-                "id": 2,
-                "tipo": "30cm"
-            },
+	"ingredientes": {
+		"paes": [
 			{
-                "id": 3,
-                "tipo": "45cm"
-            }
-        ],
-
-        "carnes":[
-            {
-                "id": 1,
-                "tipo": "Maminha"
-            },
-            {
-                "id": 2,
-                "tipo": "Alcatra"
-            },
-            {
-                "id": 3,
-                "tipo": "Picanha"
-            },
-            {
-                "id": 4,
-                "tipo": "Filé Mignon"
-            },
-            {
-                "id": 5,
-                "tipo": "Veggie Burger"
-            }
-        ],
-
-        "opcionais": [
-            {
-                "id": 1,
-                "tipo": "Bacon"
-            },
-            {
-                "id": 2,
-                "tipo": "Cheddar"
-            },
-            {
-                "id": 3,
-                "tipo": "Salame"
-            },
-            {
-                "id": 4,
-                "tipo": "Tomate"
-            },
-            {
-                "id": 5,
-                "tipo": "Cebola Roxa"
-            },
-            {
-                "id": 6,
-                "tipo": "Pepino"
-            },
-            {
-                "id": 7,
-                "tipo": "Azeitona"
-            },
-            {
-                "id": 8,
-                "tipo": "Picles"
-            }
-        ],
-
+				"id": 1,
+				"tipo": "Italiano Branco"
+			},
+			{
+				"id": 2,
+				"tipo": "3 Queijos"
+			},
+			{
+				"id": 3,
+				"tipo": "Parmesão e Orégano"
+			},
+			{
+				"id": 4,
+				"tipo": "Integral"
+			}
+		],
+		"tamanhoPao": [
+			{
+				"id": 1,
+				"tipo": "15cm"
+			},
+			{
+				"id": 2,
+				"tipo": "30cm"
+			},
+			{
+				"id": 3,
+				"tipo": "45cm"
+			}
+		],
+		"carnes": [
+			{
+				"id": 1,
+				"tipo": "Maminha"
+			},
+			{
+				"id": 2,
+				"tipo": "Alcatra"
+			},
+			{
+				"id": 3,
+				"tipo": "Picanha"
+			},
+			{
+				"id": 4,
+				"tipo": "Filé Mignon"
+			},
+			{
+				"id": 5,
+				"tipo": "Veggie Burger"
+			}
+		],
+		"opcionais": [
+			{
+				"id": 1,
+				"tipo": "Bacon"
+			},
+			{
+				"id": 2,
+				"tipo": "Cheddar"
+			},
+			{
+				"id": 3,
+				"tipo": "Salame"
+			},
+			{
+				"id": 4,
+				"tipo": "Tomate"
+			},
+			{
+				"id": 5,
+				"tipo": "Cebola Roxa"
+			},
+			{
+				"id": 6,
+				"tipo": "Pepino"
+			},
+			{
+				"id": 7,
+				"tipo": "Azeitona"
+			},
+			{
+				"id": 8,
+				"tipo": "Picles"
+			}
+		],
 		"acompanhamento": [
-            {
-                "id": 1,
-                "tipo": "Refrigerante"
-            },
-            {
-                "id": 2,
-                "tipo": "Batata"
-            },
-            {
-                "id": 3,
-                "tipo": "Refrigerante + Batata"
-            },
-            {
-                "id": 4,
-                "tipo": "Milk Shake"
-            },
-            {
-                "id": 5,
-                "tipo": "Casquinha"
-            }
-        ]
-    },
-
+			{
+				"id": 1,
+				"tipo": "Refrigerante"
+			},
+			{
+				"id": 2,
+				"tipo": "Batata"
+			},
+			{
+				"id": 3,
+				"tipo": "Refrigerante + Batata"
+			},
+			{
+				"id": 4,
+				"tipo": "Milk Shake"
+			},
+			{
+				"id": 5,
+				"tipo": "Casquinha"
+			}
+		]
+	},
 	"status": [
 		{
 			"id": 1,
@@ -131,8 +125,7 @@
 			"tipo": "Finalizado"
 		}
 	],
-
-	"burgues": [
+	"burgers": [
 		{
 			"nome": "Matheus Battisti",
 			"carne": "Picanha",
@@ -156,6 +149,38 @@
 			],
 			"status": "Solicitado",
 			"id": 4
+		},
+		{
+			"name": "bdfsefrqweffcas",
+			"breadType": "Italiano Branco",
+			"breadSize": "45cm",
+			"meatType": "Picanha",
+			"optionals": [
+				"Cheddar",
+				"Cebola Roxa",
+				"Picles"
+			],
+			"sideDishes": [
+				"Refrigerante + Batata"
+			],
+			"status": "Solicitado",
+			"id": 20
+		},
+		{
+			"nome": "lucinha lins",
+			"pao": "Italiano Branco",
+			"tamanhoPao": "15cm",
+			"carne": "Maminha",
+			"opcionais": [
+				"Bacon",
+				"Azeitona"
+			],
+			"acompanhamento": [
+				"Refrigerante",
+				"Casquinha"
+			],
+			"status": "Solicitado",
+			"id": 21
 		}
 	]
 }

@@ -2,7 +2,7 @@
 	<div>
 		<p>Componente de Mensagem</p>
 		<div>
-			<form id="burguerForm">
+			<form id="burguerForm" @submit="createBurger">
 				<!-- User Name -->
 				<div class="input-container">
 					<label for="userName">Nome do Cliente: </label>
@@ -10,15 +10,15 @@
 						type="text"
 						id="userName"
 						name="userName"
-						v-model="name"
+						v-model="userName"
 						placeholder="Digite o seu nome"
 					>
 				</div>
 
 				<!-- Bread Types OK -->
 				<div class="input-container">
-					<label for="breadTypes">Escolha o pão: </label>
-					<select id="breadTypes" name="breadTypes" v-model="breadTypes">
+					<label for="breadType">Escolha o pão: </label>
+					<select id="breadType" name="breadType" v-model="breadType">
 						<option disabled>Selecione o seu pão: </option>
 						<option v-for="bread in breadTypes" :key="bread.id" :value="bread.tipo">
 							{{ bread.tipo }}
@@ -38,7 +38,7 @@
 				<!-- Meat Types -->
 				<div class="input-container">
 					<label for="meat">Escolha a carne: </label>
-					<select id="meat" name="meat" v-model="meat">
+					<select id="meat" name="meat" v-model="meatType">
 						<option disabled>Selecione a carne: </option>
 						<option v-for="meat in meatTypes" :key="meat.id" :value="meat.tipo">
 							{{ meat.tipo }}
@@ -87,11 +87,13 @@ export default {
 			optionalIngredients: null,
 			sideDishesIngredients: null,
 
+			userName: null,
 			breadType: null,
 			breadSizes: null,
-			meat: null,
+			meatType: null,
 			optionals: [],
 			sideDishes: [],
+			msg: null,
 		}
 	},
 
@@ -110,7 +112,49 @@ export default {
 				})
 				.catch((response) => {
 					console.log(response);
+				});
+		},
+
+		async createBurger(e) {
+
+			e.preventDefault();
+
+			/* const data = {
+				name: this.userName,
+				breadType: this.breadType,
+				breadSize: this.breadSizes,
+				meatType: this.meatType,
+				optionals: Array.from(this.optionals),
+				sideDishes: Array.from(this.sideDishes),
+				status: 'Solicitado',
+			}
+
+			console.log(data);
+
+			const dataJson = JSON.stringify(data);
+
+			console.log(dataJson);
+			console.log(typeof dataJson); */
+
+			const urlOrders = 'http://localhost:3000/burgers';
+
+			axios
+				.post(urlOrders, {
+					nome: this.userName,
+					pao: this.breadType,
+					tamanhoPao: this.breadSizes,
+					carne: this.meatType,
+					opcionais: Array.from(this.optionals),
+					acompanhamento: Array.from(this.sideDishes),
+					status: 'Solicitado',
 				})
+				.then((response) => {
+					// const res = JSON.parse(response);
+					console.log(response.data);
+				})
+				.catch((error) => {
+					console.log(error);
+				});
 		}
 	},
 
