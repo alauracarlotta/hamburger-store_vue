@@ -15,7 +15,7 @@
 					>
 				</div>
 
-				<!-- Bread Types OK -->
+				<!-- Bread Types -->
 				<div class="input-container">
 					<label for="breadType">Escolha o pão: </label>
 					<select id="breadType" name="breadType" v-model="breadType">
@@ -26,7 +26,7 @@
 					</select>
 				</div>
 
-				<!-- Bread Size OK -->
+				<!-- Bread Size -->
 				<div id="breadSize-container" class="input-container">
 					<label class="optional-title" for="breadSizeRadio">Selecione o tamanho do pão: </label>
 					<div v-for="breadSize in breadSizeIngredients" :key="breadSize.id" class="checkbox-container">
@@ -46,7 +46,7 @@
 					</select>
 				</div>
 
-				<!-- Optionals OK -->
+				<!-- Optionals -->
 				<div id="optional-container" class="input-container">
 					<label class="optional-title" for="optionals">Selecione os opcionais: </label>
 					<div v-for="optional in optionalIngredients" :key="optional.id" class="checkbox-container">
@@ -55,7 +55,7 @@
 					</div>
 				</div>
 
-				<!-- Side Dishes OK -->
+				<!-- Side Dishes -->
 				<div id="sideDishes-container" class="input-container">
 					<label class="optional-title" for="sideDishes">Selecione os acompanhamentos: </label>
 					<div v-for="sideDish in sideDishesIngredients" :key="sideDish.id" class="checkbox-container">
@@ -119,23 +119,6 @@ export default {
 
 			e.preventDefault();
 
-			/* const data = {
-				name: this.userName,
-				breadType: this.breadType,
-				breadSize: this.breadSizes,
-				meatType: this.meatType,
-				optionals: Array.from(this.optionals),
-				sideDishes: Array.from(this.sideDishes),
-				status: 'Solicitado',
-			}
-
-			console.log(data);
-
-			const dataJson = JSON.stringify(data);
-
-			console.log(dataJson);
-			console.log(typeof dataJson); */
-
 			const urlOrders = 'http://localhost:3000/burgers';
 
 			axios
@@ -149,7 +132,6 @@ export default {
 					status: 'Solicitado',
 				})
 				.then((response) => {
-					// const res = JSON.parse(response);
 					console.log(response.data);
 				})
 				.catch((error) => {

@@ -1,186 +1,129 @@
 {
-	"ingredientes": {
-		"paes": [
+	"ingredients": {
+		"breads": [
 			{
 				"id": 1,
-				"tipo": "Italiano Branco"
+				"type": "Italiano Branco"
 			},
 			{
 				"id": 2,
-				"tipo": "3 Queijos"
+				"type": "3 Queijos"
 			},
 			{
 				"id": 3,
-				"tipo": "Parmesão e Orégano"
+				"type": "Parmesão e Orégano"
 			},
 			{
 				"id": 4,
-				"tipo": "Integral"
+				"type": "Integral"
 			}
 		],
-		"tamanhoPao": [
+		"sizeBreads": [
 			{
 				"id": 1,
-				"tipo": "15cm"
+				"type": "15cm"
 			},
 			{
 				"id": 2,
-				"tipo": "30cm"
+				"type": "30cm"
 			},
 			{
 				"id": 3,
-				"tipo": "45cm"
+				"type": "45cm"
 			}
 		],
-		"carnes": [
+		"meats": [
 			{
 				"id": 1,
-				"tipo": "Maminha"
+				"type": "Maminha"
 			},
 			{
 				"id": 2,
-				"tipo": "Alcatra"
+				"type": "Alcatra"
 			},
 			{
 				"id": 3,
-				"tipo": "Picanha"
+				"type": "Picanha"
 			},
 			{
 				"id": 4,
-				"tipo": "Filé Mignon"
+				"type": "Filé Mignon"
 			},
 			{
 				"id": 5,
-				"tipo": "Veggie Burger"
+				"type": "Veggie Burger"
 			}
 		],
-		"opcionais": [
+		"optionals": [
 			{
 				"id": 1,
-				"tipo": "Bacon"
+				"type": "Bacon"
 			},
 			{
 				"id": 2,
-				"tipo": "Cheddar"
+				"type": "Cheddar"
 			},
 			{
 				"id": 3,
-				"tipo": "Salame"
+				"type": "Salame"
 			},
 			{
 				"id": 4,
-				"tipo": "Tomate"
+				"type": "Tomate"
 			},
 			{
 				"id": 5,
-				"tipo": "Cebola Roxa"
+				"type": "Cebola Roxa"
 			},
 			{
 				"id": 6,
-				"tipo": "Pepino"
+				"type": "Pepino"
 			},
 			{
 				"id": 7,
-				"tipo": "Azeitona"
+				"type": "Azeitona"
 			},
 			{
 				"id": 8,
-				"tipo": "Picles"
+				"type": "Picles"
 			}
 		],
-		"acompanhamento": [
+		"sideDishes": [
 			{
 				"id": 1,
-				"tipo": "Refrigerante"
+				"type": "Refrigerante"
 			},
 			{
 				"id": 2,
-				"tipo": "Batata"
+				"type": "Batata"
 			},
 			{
 				"id": 3,
-				"tipo": "Refrigerante + Batata"
+				"type": "Refrigerante + Batata"
 			},
 			{
 				"id": 4,
-				"tipo": "Milk Shake"
+				"type": "Milk Shake"
 			},
 			{
 				"id": 5,
-				"tipo": "Casquinha"
+				"type": "Casquinha"
 			}
 		]
 	},
 	"status": [
 		{
 			"id": 1,
-			"tipo": "Solicitado"
+			"type": "Solicitado"
 		},
 		{
 			"id": 2,
-			"tipo": "Em produção"
+			"type": "Em produção"
 		},
 		{
 			"id": 3,
-			"tipo": "Finalizado"
+			"type": "Finalizado"
 		}
 	],
-	"burgers": [
-		{
-			"nome": "Matheus Battisti",
-			"carne": "Picanha",
-			"pao": "Italiano Branco",
-			"opcionais": [
-				"Bacon",
-				"Salame",
-				"Cebola Roxa"
-			],
-			"status": "Finalizado",
-			"id": 1
-		},
-		{
-			"nome": "João Coelho",
-			"carne": "Maminha",
-			"pao": "3 Queijos",
-			"opcionais": [
-				"Picles",
-				"Azeitona",
-				"Rucula"
-			],
-			"status": "Solicitado",
-			"id": 4
-		},
-		{
-			"name": "bdfsefrqweffcas",
-			"breadType": "Italiano Branco",
-			"breadSize": "45cm",
-			"meatType": "Picanha",
-			"optionals": [
-				"Cheddar",
-				"Cebola Roxa",
-				"Picles"
-			],
-			"sideDishes": [
-				"Refrigerante + Batata"
-			],
-			"status": "Solicitado",
-			"id": 20
-		},
-		{
-			"nome": "lucinha lins",
-			"pao": "Italiano Branco",
-			"tamanhoPao": "15cm",
-			"carne": "Maminha",
-			"opcionais": [
-				"Bacon",
-				"Azeitona"
-			],
-			"acompanhamento": [
-				"Refrigerante",
-				"Casquinha"
-			],
-			"status": "Solicitado",
-			"id": 21
-		}
-	]
+	"burgers": []
 }
