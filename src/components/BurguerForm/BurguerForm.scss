@@ -39,7 +39,9 @@
 		}
 	}
 
-	#optional-container {
+	#breadSize-container,
+	#optional-container,
+	#sideDishes-container {
 		flex-direction: row;
 		flex-wrap: wrap;
 
@@ -52,7 +54,6 @@
 			display: flex;
 			justify-content: flex-start;
 			margin-bottom: 20px;
-			width: 33.3%;
 
 			input,
 			span {
@@ -68,6 +69,19 @@
 				height: 1rem;
 				width: 1rem;
 			}
+		}
+	}
+
+	#breadSize-container,
+	#optional-container {
+		.checkbox-container {
+			width: 33.3%;
+		}
+	}
+
+	#sideDishes-container {
+		.checkbox-container {
+			width: 50%;
 		}
 	}
 }
