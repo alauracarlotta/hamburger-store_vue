@@ -1,6 +1,6 @@
 {
 	"ingredients": {
-		"breads": [
+		"breadType": [
 			{
 				"id": 1,
 				"type": "Italiano Branco"
@@ -22,7 +22,7 @@
 				"type": "9 grãos"
 			}
 		],
-		"sizeBreads": [
+		"breadSizes": [
 			{
 				"id": 1,
 				"type": "15cm"
@@ -36,7 +36,7 @@
 				"type": "45cm"
 			}
 		],
-		"meats": [
+		"meatType": [
 			{
 				"id": 1,
 				"type": "Veggie Burger"
@@ -68,7 +68,8 @@
 			{
 				"id": 8,
 				"type": "Rosbife"
-			},{
+			},
+			{
 				"id": 9,
 				"type": "Peito de Peru"
 			}
@@ -313,6 +314,51 @@
 			],
 			"status": "Solicitado",
 			"id": 7
+		},
+		{
+			"name": "Joaquina",
+			"breads": "Parmesão e Orégano",
+			"sizeBreads": "30cm",
+			"meats": "Frango Teriyaki",
+			"optionals": [
+				"Rúcula",
+				"Tomate",
+				"Cebola Roxa",
+				"Azeitona",
+				"Picles",
+				"Mostarda",
+				"Barbecue",
+				"Queijo Suiço"
+			],
+			"sideDishes": [
+				"Milk Shake",
+				"Cookie",
+				"Batata"
+			],
+			"status": "Solicitado",
+			"id": 8
+		},
+		{
+			"userName": "Eu mesma, Maria do Bairro",
+			"breadType": "Parmesão e Orégano",
+			"breadSizes": "15cm",
+			"meatType": "Frango Teriyaki",
+			"optionals": [
+				"Queijo Suiço",
+				"Barbecue",
+				"Cebola Roxa",
+				"Picles",
+				"Azeitona",
+				"Rúcula",
+				"Bacon"
+			],
+			"sideDishes": [
+				"Milk Shake",
+				"Cookie",
+				"Brownie"
+			],
+			"status": "Solicitado",
+			"id": 9
 		}
 	]
 }

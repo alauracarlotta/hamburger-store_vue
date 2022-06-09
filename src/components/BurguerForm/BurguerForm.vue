@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<p>Componente de Mensagem</p>
+		<SucessMessage :msg="msg" v-show="msg"/>
 		<div>
 			<form id="burguerForm" @submit="createBurger">
 				<!-- User Name -->
@@ -78,9 +78,14 @@
 
 <script>
 import axios from 'axios';
+import SucessMessage from '../SucessMessage/SucessMessage.vue';
 
 export default {
 	name: 'BurguerForm',
+
+	components: {
+		SucessMessage,
+	},
 
 	data() {
 		return {
@@ -108,9 +113,9 @@ export default {
 			await axios
 				.get(urlIngredients)
 				.then((response) => {
-					this.breadTypes = response.data.breads;
-					this.breadSizeIngredients = response.data.sizeBreads;
-					this.meatTypes = response.data.meats;
+					this.breadTypes = response.data.breadType;
+					this.breadSizeIngredients = response.data.breadSizes;
+					this.meatTypes = response.data.meatType;
 					this.optionalIngredients = response.data.optionals;
 					this.sideDishesIngredients = response.data.sideDishes;
 				})
@@ -127,20 +132,41 @@ export default {
 
 			axios
 				.post(urlOrders, {
-					name: this.userName,
-					breads: this.breadType,
-					sizeBreads: this.breadSizes,
-					meats: this.meatType,
+					userName: this.userName,
+					breadType: this.breadType,
+					breadSizes: this.breadSizes,
+					meatType: this.meatType,
 					optionals: Array.from(this.optionals),
 					sideDishes: Array.from(this.sideDishes),
 					status: 'Solicitado',
 				})
 				.then((response) => {
 					console.log(response.data);
+
+					/* --------------------------
+						Add Success Order Message
+					----------------------------- */
+
+					this.msg = `O pedido nº${response.data.id} foi realizado com sucesso!`;
+
 				})
 				.catch((error) => {
 					console.log(error);
 				});
+
+				setTimeout(() => {
+					this.msg = '';
+				}, 3000);
+
+				/* ---------------
+					Clean Inputs
+				------------------ */
+				this.userName = '';
+				this.breadType = '';
+				this.breadSizes = '';
+				this.meatType = '';
+				this.optionals = '';
+				this.sideDishes = '';
 		}
 	},
 
