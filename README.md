@@ -21,3 +21,10 @@ npm run build
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### Compiles and hot-reloads for development to backend and database
+
+```
+npm run backend
+```

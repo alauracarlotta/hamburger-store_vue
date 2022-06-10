@@ -19,7 +19,7 @@
 			transition: .5s;
 
 			&:hover {
-				color: #FFF;
+				color: $color-white;
 				border-bottom: 1px double $color-white;
 			}
 		}
