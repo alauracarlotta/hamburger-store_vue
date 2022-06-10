@@ -1,6 +1,8 @@
+@import '@/style.scss';
+
 #navbarMenu{
-	background-color: #222;
-	border-bottom: 4px solid #111;
+	background-color: $color-dark-gray;
+	border-bottom: 4px solid $color-dark-border;
 	padding: 15px 50px;
 
 	#logoNavbarMenu {
@@ -10,7 +12,7 @@
 
 	#headerLinks {
 		a {
-			color: #FCBA03;
+			color: $color-medium-yellow;
 			margin: .75rem;
 			padding-bottom: .25rem;
 			text-decoration-line: none;
@@ -18,7 +20,7 @@
 
 			&:hover {
 				color: #FFF;
-				border-bottom: 1px double #FFF;
+				border-bottom: 1px double $color-white;
 			}
 		}
 	}

@@ -2,6 +2,13 @@
 	Colors
 -------------- */
 
+$color-white		: #FFF;
 $color-dark-gray	: #222;
 $color-dark-border	: #111;
 $color-medium-yellow: #FCBA03;
+
+@mixin title-h1() {
+	color: $color-dark-gray;
+	font-size: 40px;
+	text-align: center;
+}

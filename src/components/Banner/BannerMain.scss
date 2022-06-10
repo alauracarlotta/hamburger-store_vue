@@ -1,3 +1,5 @@
+@import '@/style.scss';
+
 #mainBanner {
 	align-items: center;
 	background-image: url("../../../public/img/burger.jpg");
@@ -9,12 +11,11 @@
 	width: 100%;
 
 	h1 {
-
-		color: #222;
+		color: $color-dark-gray;
 		font-size: 50px;
 		padding: 1rem 2rem;
-		background-color: #fcba03ea;
+		background-color: $color-medium-yellow;
 		margin-left: 6rem;
-		box-shadow: 4px 4px #111;
+		box-shadow: 4px 4px $color-dark-border;
 	}
 }

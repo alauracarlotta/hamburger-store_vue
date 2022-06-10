@@ -1,9 +1,11 @@
+@import '@/style.scss';
+
 #footerMain {
 	align-items: center;
-	background-color: #222;
-	border-top: 4px solid #111;
+	background-color: $color-dark-gray;
+	border-top: 4px solid $color-dark-border;
 	bottom: 0;
-	color: #FCBA03;
+	color: $color-medium-yellow;
 	display: flex;
 	height: 150px;
 	justify-content: center;
