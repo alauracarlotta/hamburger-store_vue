@@ -359,6 +359,27 @@
 			],
 			"status": "Solicitado",
 			"id": 9
+		},
+		{
+			"userName": "Wellington",
+			"breadType": "Parmesão e Orégano",
+			"breadSizes": "30cm",
+			"meatType": "Filé Mignon",
+			"optionals": [
+				"Bacon",
+				"Rúcula",
+				"Cebola Roxa",
+				"Picles",
+				"Azeitona",
+				"Barbecue",
+				"Mostarda Escura",
+				"Queijo Suiço"
+			],
+			"sideDishes": [
+				"Refrigerante + Batata"
+			],
+			"status": "Solicitado",
+			"id": 10
 		}
 	]
 }

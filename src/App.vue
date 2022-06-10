@@ -25,4 +25,4 @@ export default {
 }
 </script>
 
-<style lang="scss" src="./App.scss" />
+<style lang="scss" src="./style.scss" />
