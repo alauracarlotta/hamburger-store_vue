@@ -1,4 +1,8 @@
-# hamburger_store-vue
+# Hamburger Store
+
+## Sobre o projeto
+
+Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquiridos sobre estudo feitos com o framework VueJs. 
 
 ## Project setup
 
