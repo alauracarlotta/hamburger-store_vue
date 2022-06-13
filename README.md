@@ -1,8 +1,9 @@
 # Hamburger Store
+[![NPM].(https://img.shields.io/npm/l/vue).].(https://github.com/lauracarlotta/hamburger-store_vue/blob/main/LICENSE)
 
 ## Sobre o projeto
 
-Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquiridos sobre estudo feitos com o framework VueJs. 
+Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquiridos sobre estudo feitos com o framework VueJs.
 
 ## Project setup
 
@@ -10,24 +11,24 @@ Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquir
 npm install
 ```
 
-### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development
 
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+#### Compiles and minifies for production
 
 ```
 npm run build
 ```
 
-### Customize configuration
+#### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-### Compiles and hot-reloads for development to backend and database
+#### Compiles and hot-reloads for development to backend and database
 
 ```
 npm run backend
