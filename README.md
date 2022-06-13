@@ -1,21 +1,26 @@
-![CAPA](https://img.shields.io/github/license/lauracarlotta/hamburger-store_vue/src/assets/images/readme/burger-banner.png)
+![CAPA](https://github.com/lauracarlotta/hamburger-store_vue/src/assets/images/readme/burger-banner.png)
 
-# Hamburger Store
+<h1 align="center">Hamburger Store</h1>
+
 [![NPM](https://img.shields.io/github/license/lauracarlotta/hamburger-store_vue)](https://github.com/lauracarlotta/hamburger-store_vue/blob/main/LICENSE)
 
 <br/>
 
-<p align="center">
- <a href="#sobre">Sobre o projeto</a>
- - <a href="#layout-mobile">Layout Mobile</a>
- - <a href="#layout-desktop">Layout Desktop</a>
- - <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
- - <a href="#competencias">Competencias</a>
- - <a href="#features">Features</a>
- - <a href="#project-setup">Project Setup</a>
- - <a href="#author">Author</a>
- - <a href="#agradecimentos">Agradecimentos</a>
-</p>
+#
+
+<div align="center">
+ <a href="#sobre">Sobre o projeto</a> |
+ <a href="#layout-mobile">Layout Mobile</a> |
+ <a href="#layout-desktop">Layout Desktop</a> |
+ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a> |
+ <a href="#competencias">Competencias</a> |
+ <a href="#features">Features</a> |
+ <a href="#project-setup">Project Setup</a> |
+ <a href="#author">Author</a> |
+ <a href="#agradecimentos">Agradecimentos</a>
+</div>
+
+#
 
 ## Sobre o projeto
 
