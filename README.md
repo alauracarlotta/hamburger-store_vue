@@ -1,5 +1,6 @@
 # Hamburger Store
-[![NPM].(https://img.shields.io/npm/l/vue).].(https://github.com/lauracarlotta/hamburger-store_vue/blob/main/LICENSE)
+[![NPM](https://img.shields.io/github/license/lauracarlotta/hamburger-store_vue)](https://github.com/lauracarlotta/hamburger-store_vue/blob/main/LICENSE)
+
 
 ## Sobre o projeto
 
