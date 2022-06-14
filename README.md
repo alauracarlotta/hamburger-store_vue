@@ -2,22 +2,28 @@
 
 <h1 align="center">Hamburger Store</h1>
 
-[![NPM](https://img.shields.io/github/license/lauracarlotta/hamburger-store_vue)](https://github.com/lauracarlotta/hamburger-store_vue/blob/main/LICENSE)
+<center>
 
-<br/>
+[![NPM](https://img.shields.io/github/license/lauracarlotta/hamburger-store_vue)](https://github.com/lauracarlotta/hamburger-store_vue/blob/main/LICENSE)
+![VUE](https://img.shields.io/badge/VueJs-3-aqua)
+[![code quality](https://img.shields.io/badge/code%20quality-A-success)](https://img.shields.io/scrutinizer/quality/g/lauracarlotta/hamburger-store_vue/main)
+![GitHub repo size](https://img.shields.io/github/repo-size/lauracarlotta/hamburger-store_vue)
+![GitHub last commit](https://img.shields.io/github/last-commit/lauracarlotta/hamburger-store_vue?color=yellow)
+
+</center>
 
 #
 
 <div align="center">
- <a href="#sobre">Sobre o projeto</a> |
- <a href="#layout-mobile">Layout Mobile</a> |
- <a href="#layout-desktop">Layout Desktop</a> |
- <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a> |
- <a href="#competencias">Competencias</a> |
- <a href="#features">Features</a> |
- <a href="#project-setup">Project Setup</a> |
- <a href="#author">Author</a> |
- <a href="#agradecimentos">Agradecimentos</a>
+<a href="#sobre">Sobre o projeto</a>
+- <a href="#layout-mobile">Layout Mobile</a>
+- <a href="#layout-desktop">Layout Desktop</a>
+- <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
+- <a href="#competencias">Competencias</a>
+- <a href="#features">Features</a>
+- <a href="#project-setup">Project Setup</a>
+- <a href="#author">Author</a>
+- <a href="#agradecimentos">Agradecimentos</a>
 </div>
 
 #
@@ -61,9 +67,9 @@ Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquir
 <br/>
 
 ## Features
- - Cadastro
- - Delete
- - Relatório
+ - [x] Cadastro
+ - [x] Delete
+ - [ ] Relatório
 
 <br/>
 
