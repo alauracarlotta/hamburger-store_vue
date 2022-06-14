@@ -1,6 +1,8 @@
-![CAPA](https://github.com/lauracarlotta/hamburger-store_vue/src/assets/images/readme/burger-banner.png)
+![CAPA](https://github.com/lauracarlotta/hamburger-store_vue/blob/main/src/assets/images/readme/burger-banner.png)
 
-<h1 align="center">Hamburger Store</h1>
+<div align="center">
+	<h1>🍔 Hamburger Store 🍔</h1>
+</div>
 
 [![NPM](https://img.shields.io/github/license/lauracarlotta/hamburger-store_vue)](https://github.com/lauracarlotta/hamburger-store_vue/blob/main/LICENSE)
 
@@ -8,8 +10,8 @@
 
 #
 
-<div align="center">
- <a href="#sobre">Sobre o projeto</a> |
+<p align="center">
+ <a href="#sobre-o-projeto">Sobre o projeto</a> |
  <a href="#layout-mobile">Layout Mobile</a> |
  <a href="#layout-desktop">Layout Desktop</a> |
  <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a> |
@@ -18,9 +20,13 @@
  <a href="#project-setup">Project Setup</a> |
  <a href="#author">Author</a> |
  <a href="#agradecimentos">Agradecimentos</a>
-</div>
+</p>
 
-#
+<br/>
+
+<h4 align="center">🚧 PROJETO em Construção 🚧 </h4>
+
+<br/>
 
 ## Sobre o projeto
 
