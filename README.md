@@ -110,7 +110,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 <br/>
 
 ## Author
-<div style="font-family: 'Great Vibes', cursive; font-size: larger;"> :point_right: Laura Carlota Custódio </div>
+<div style="font-family: 'Great Vibes', cursive; font-size: larger;">
+  <img src="https://i.ibb.co/2khHMTS/135861044-3663530760381961-1838278676959512214-n.jpg" style="border-radius: 100%" width="150" height="150">
+  :point_right: Laura Carlota Custódio 
+</div>
   <a href="https://www.instagram.com/carlotta.front" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
   <a href="https://medium.com/@laura.carlotta" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/lauracarlotta" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
