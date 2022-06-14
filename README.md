@@ -1,14 +1,18 @@
 ![CAPA](https://github.com/lauracarlotta/hamburger-store_vue/blob/main/src/assets/images/readme/burger-banner.png)
 
+<h1 align="center">Hamburger Store</h1>
+
 <div align="center">
-	<h1>🍔 Hamburger Store 🍔</h1>
-</div>
 
 [![NPM](https://img.shields.io/github/license/lauracarlotta/hamburger-store_vue)](https://github.com/lauracarlotta/hamburger-store_vue/blob/main/LICENSE)
+![VUE](https://img.shields.io/badge/VueJs-3-aqua)
+[![code quality](https://img.shields.io/badge/code%20quality-A-success)](https://img.shields.io/scrutinizer/quality/g/lauracarlotta/hamburger-store_vue/main)
+![GitHub repo size](https://img.shields.io/github/repo-size/lauracarlotta/hamburger-store_vue)
+![GitHub last commit](https://img.shields.io/github/last-commit/lauracarlotta/hamburger-store_vue?color=yellow)
 
-<br/>
+</div>
 
-#
+# 
 
 <p align="center">
  <a href="#sobre-o-projeto">Sobre o projeto</a> |
@@ -86,8 +90,12 @@ npm install
 # Compiles and hot-reloads for development (FRONT-END)
 npm run serve
 
+## O servidor iniciará na porta:8080 - acesse <http://localhost:8080>
+
 # Compiles and hot-reloads for development (BACK-END and DATABASE)
 npm run backend
+
+## O servidor iniciará na porta:3000 - acesse <http://localhost:3000>
 ```
 
 ```bash
