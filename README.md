@@ -4,12 +4,16 @@
 
 <div align="center">
 
-[![NPM](https://img.shields.io/github/license/lauracarlotta/hamburger-store_vue)](https://github.com/lauracarlotta/hamburger-store_vue/blob/main/LICENSE)
-![VUE](https://img.shields.io/badge/VueJs-3-aqua)
-[![code quality](https://img.shields.io/badge/code%20quality-A-success)](https://img.shields.io/scrutinizer/quality/g/lauracarlotta/hamburger-store_vue/main)
-![GitHub repo size](https://img.shields.io/github/repo-size/lauracarlotta/hamburger-store_vue)
-![GitHub last commit](https://img.shields.io/github/last-commit/lauracarlotta/hamburger-store_vue?color=yellow)
+<img src="https://img.shields.io/static/v1?label=Vue.JS&message=framework&color=4FC08D&style=for-the-badge&logo=vuedotjs"/>
+<img src="https://img.shields.io/static/v1?label=SASS&message=pre-processor&color=CC6699&style=for-the-badge&logo=sass"/>
+<img src="https://img.shields.io/github/repo-size/lauracarlotta/hamburger-store_vue?color=FF5&style=for-the-badge">
+<img src="https://img.shields.io/github/last-commit/lauracarlotta/hamburger-store_vue?color=e05c5c&style=for-the-badge">	
+<a href="https://github.com/lauracarlotta/hamburger-store_vue/blob/main/LICENSE"><img src="https://img.shields.io/github/license/lauracarlotta/hamburger-store_vue?color=258AAF&style=for-the-badge"></a>
 
+</div>
+
+<div align="center">
+	<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
 </div>
 
 #
