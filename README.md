@@ -111,8 +111,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Author
 <div style="font-family: 'Great Vibes', cursive; font-size: larger;">
-  <img src="https://i.ibb.co/2khHMTS/135861044-3663530760381961-1838278676959512214-n.jpg" style="border-radius: 100%" width="150" height="150">
-  <img src="https://github.com/lauracarlotta/hamburger-store_vue/blob/main/src/assets/images/readme/laura-signature.png" height="150">
+  <img src="https://i.ibb.co/2khHMTS/135861044-3663530760381961-1838278676959512214-n.jpg" width="120" height="120">
+  <img src="https://github.com/lauracarlotta/hamburger-store_vue/blob/main/src/assets/images/readme/laura-signature.png" height="120">
 </div>
 
 <div align="center">
