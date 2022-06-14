@@ -1,8 +1,8 @@
-![CAPA](https://github.com/lauracarlotta/hamburger-store_vue/src/assets/images/readme/burger-banner.png)
+![CAPA](https://github.com/lauracarlotta/hamburger-store_vue/blob/main/src/assets/images/readme/burger-banner.png)
 
 <h1 align="center">Hamburger Store</h1>
 
-<center>
+<div align="center">
 
 [![NPM](https://img.shields.io/github/license/lauracarlotta/hamburger-store_vue)](https://github.com/lauracarlotta/hamburger-store_vue/blob/main/LICENSE)
 ![VUE](https://img.shields.io/badge/VueJs-3-aqua)
@@ -10,23 +10,27 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/lauracarlotta/hamburger-store_vue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/lauracarlotta/hamburger-store_vue?color=yellow)
 
-</center>
-
-#
-
-<div align="center">
-<a href="#sobre">Sobre o projeto</a>
-- <a href="#layout-mobile">Layout Mobile</a>
-- <a href="#layout-desktop">Layout Desktop</a>
-- <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
-- <a href="#competencias">Competencias</a>
-- <a href="#features">Features</a>
-- <a href="#project-setup">Project Setup</a>
-- <a href="#author">Author</a>
-- <a href="#agradecimentos">Agradecimentos</a>
 </div>
 
 #
+
+<p align="center">
+ <a href="#sobre-o-projeto">Sobre o projeto</a> |
+ <a href="#layout-mobile">Layout Mobile</a> |
+ <a href="#layout-desktop">Layout Desktop</a> |
+ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a> |
+ <a href="#competencias">Competencias</a> |
+ <a href="#features">Features</a> |
+ <a href="#project-setup">Project Setup</a> |
+ <a href="#author">Author</a> |
+ <a href="#agradecimentos">Agradecimentos</a>
+</p>
+
+<br/>
+
+<h4 align="center">🚧 PROJETO em Construção 🚧 </h4>
+
+<br/>
 
 ## Sobre o projeto
 
@@ -58,10 +62,10 @@ Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquir
 
 ## Competencias
 <div>
-	<img align="center" alt="Js" height="30" width="90" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
-	<img align="center" alt="Js" height="30" width="90" src="padrão bem">
-	<img align="center" alt="Js" height="30" width="90" src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white">
-	<img align="center" alt="Js" height="30" width="90" src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E">
+	<img align="center" alt="Js" height="30" width="100" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+	<img align="center" alt="Js" height="30" width="100" src="padrão bem">
+	<img align="center" alt="Js" height="30" width="100" src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white">
+	<img align="center" alt="Js" height="30" width="100" src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E">
 </div>
 
 <br/>
@@ -86,8 +90,12 @@ npm install
 # Compiles and hot-reloads for development (FRONT-END)
 npm run serve
 
+## O servidor iniciará na porta:8080 - acesse <http://localhost:8080>
+
 # Compiles and hot-reloads for development (BACK-END and DATABASE)
 npm run backend
+
+## O servidor iniciará na porta:3000 - acesse <http://localhost:3000>
 ```
 
 ```bash
@@ -117,3 +125,30 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
  - udemy
 
 <br/>
+
+
+==========================================
+
+# Ainda falta
+
+ - [ ] Título e Imagem de capa;
+ - [ ] Badges;
+ - [ ] Índice;
+ - [ ] Descrição do Projeto;
+ - [ ] Status do Projeto;
+ - [ ] Funcionalidades e Demonstração da Aplicação;
+ - [ ] Acesso ao Projeto;
+ - [ ] Tecnologias utilizadas;
+ - [ ] Pessoas Contribuidoras;
+ - [ ] Pessoas Desenvolvedoras do Projeto;
+ - [ ] Licença.
+ - [ ] Passar tudo para o inglês
+
+ Adicionar imagens do desktop - gif
+ Adicionar imagens do desktop - mobile
+ Terminar o projeto
+ Adicionar nota sobre o que eu fiz com backend
+ Ver competencias
+ Fazer agradecimentos descritivos
+ Resumo do author
+

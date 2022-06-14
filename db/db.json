@@ -1,385 +1,403 @@
 {
-	"ingredients": {
-		"breadType": [
-			{
-				"id": 1,
-				"type": "Italiano Branco"
-			},
-			{
-				"id": 2,
-				"type": "3 Queijos"
-			},
-			{
-				"id": 3,
-				"type": "Parmesão e Orégano"
-			},
-			{
-				"id": 4,
-				"type": "Integral"
-			},
-			{
-				"id": 5,
-				"type": "9 grãos"
-			}
-		],
-		"breadSizes": [
-			{
-				"id": 1,
-				"type": "15cm"
-			},
-			{
-				"id": 2,
-				"type": "30cm"
-			},
-			{
-				"id": 3,
-				"type": "45cm"
-			}
-		],
-		"meatType": [
-			{
-				"id": 1,
-				"type": "Veggie Burger"
-			},
-			{
-				"id": 2,
-				"type": "Alcatra"
-			},
-			{
-				"id": 3,
-				"type": "Picanha"
-			},
-			{
-				"id": 4,
-				"type": "Filé Mignon"
-			},
-			{
-				"id": 5,
-				"type": "Maminha"
-			},
-			{
-				"id": 6,
-				"type": "Frango Teriyaki"
-			},
-			{
-				"id": 7,
-				"type": "Almondegas"
-			},
-			{
-				"id": 8,
-				"type": "Rosbife"
-			},
-			{
-				"id": 9,
-				"type": "Peito de Peru"
-			}
-		],
-		"optionals": [
-			{
-				"id": 1,
-				"type": "Bacon"
-			},
-			{
-				"id": 2,
-				"type": "Presunto"
-			},
-			{
-				"id": 3,
-				"type": "Salame"
-			},
-			{
-				"id": 4,
-				"type": "Tomate"
-			},
-			{
-				"id": 5,
-				"type": "Rúcula"
-			},
-			{
-				"id": 6,
-				"type": "Pepino"
-			},
-			{
-				"id": 7,
-				"type": "Azeitona"
-			},
-			{
-				"id": 8,
-				"type": "Picles"
-			},
-			{
-				"id": 9,
-				"type": "Cebola Roxa"
-			},
-			{
-				"id": 10,
-				"type": "Ketchup"
-			},
-			{
-				"id": 11,
-				"type": "Maionese"
-			},
-			{
-				"id": 12,
-				"type": "Mostarda"
-			},
-			{
-				"id": 13,
-				"type": "Mostarda Escura"
-			},
-			{
-				"id": 14,
-				"type": "Mostarda Dijon"
-			},
-			{
-				"id": 15,
-				"type": "Barbecue"
-			},
-			{
-				"id": 16,
-				"type": "Ricota"
-			},
-			{
-				"id": 17,
-				"type": "Cheddar"
-			},
-			{
-				"id": 18,
-				"type": "Queijo Prato"
-			},
-			{
-				"id": 19,
-				"type": "Queijo Suiço"
-			},
-			{
-				"id": 20,
-				"type": "Queijo Brie"
-			}
-		],
-		"sideDishes": [
-			{
-				"id": 1,
-				"type": "Refrigerante + Batata"
-			},
-			{
-				"id": 2,
-				"type": "Refrigerante"
-			},
-			{
-				"id": 3,
-				"type": "Batata"
-			},
-			{
-				"id": 4,
-				"type": "Milk Shake"
-			},
-			{
-				"id": 5,
-				"type": "Casquinha"
-			},
-			{
-				"id": 6,
-				"type": "Cookie"
-			},
-			{
-				"id": 7,
-				"type": "Brownie"
-			},
-			{
-				"id": 8,
-				"type": "Água"
-			}
-		]
-	},
-	"status": [
-		{
-			"id": 1,
-			"type": "Solicitado"
-		},
-		{
-			"id": 2,
-			"type": "Em produção"
-		},
-		{
-			"id": 3,
-			"type": "Finalizado"
-		}
-	],
-	"burgers": [
-		{
-			"name": "Laura",
-			"breads": "Italiano Branco",
-			"sizeBreads": "30cm",
-			"meats": "Picanha",
-			"optionals": [
-				"Bacon",
-				"Cheddar"
-			],
-			"sideDishes": [
-				"Batata"
-			],
-			"status": "Solicitado",
-			"id": 1
-		},
-		{
-			"name": "Well",
-			"breads": "Parmesão e Orégano",
-			"sizeBreads": "15cm",
-			"meats": "Veggie Burger",
-			"optionals": [
-				"Pepino",
-				"Picles",
-				"Azeitona"
-			],
-			"sideDishes": [
-				"Refrigerante + Batata"
-			],
-			"status": "Solicitado",
-			"id": 2
-		},
-		{
-			"name": "Marina",
-			"breads": "Italiano Branco",
-			"sizeBreads": "15cm",
-			"meats": "Filé Mignon",
-			"optionals": [
-				"Bacon",
-				"Tomate"
-			],
-			"sideDishes": [
-				"Refrigerante + Batata"
-			],
-			"status": "Solicitado",
-			"id": 3
-		},
-		{
-			"name": "Gustavo",
-			"breads": "Parmesão e Orégano",
-			"sizeBreads": "45cm",
-			"meats": "Filé Mignon",
-			"optionals": [
-				"Cheddar",
-				"Bacon"
-			],
-			"sideDishes": [
-				"Batata",
-				"Milk Shake"
-			],
-			"status": "Solicitado",
-			"id": 4
-		},
-		{
-			"name": "Helena",
-			"breads": "Italiano Branco",
-			"sizeBreads": "15cm",
-			"meats": "Picanha",
-			"optionals": [
-				"Cebola Roxa",
-				"Picles"
-			],
-			"sideDishes": [
-				"Refrigerante"
-			],
-			"status": "Solicitado",
-			"id": 5
-		},
-		{
-			"name": "Bruninha",
-			"breads": "3 Queijos",
-			"sizeBreads": "30cm",
-			"meats": "Maminha",
-			"optionals": [
-				"Bacon",
-				"Picles"
-			],
-			"sideDishes": [
-				"Batata",
-				"Casquinha"
-			],
-			"status": "Solicitado",
-			"id": 6
-		},
-		{
-			"name": "Mada",
-			"breads": "Integral",
-			"sizeBreads": "45cm",
-			"meats": "Picanha",
-			"optionals": [
-				"Cheddar"
-			],
-			"sideDishes": [
-				"Batata",
-				"Milk Shake",
-				"Casquinha"
-			],
-			"status": "Solicitado",
-			"id": 7
-		},
-		{
-			"name": "Joaquina",
-			"breads": "Parmesão e Orégano",
-			"sizeBreads": "30cm",
-			"meats": "Frango Teriyaki",
-			"optionals": [
-				"Rúcula",
-				"Tomate",
-				"Cebola Roxa",
-				"Azeitona",
-				"Picles",
-				"Mostarda",
-				"Barbecue",
-				"Queijo Suiço"
-			],
-			"sideDishes": [
-				"Milk Shake",
-				"Cookie",
-				"Batata"
-			],
-			"status": "Solicitado",
-			"id": 8
-		},
-		{
-			"userName": "Eu mesma, Maria do Bairro",
-			"breadType": "Parmesão e Orégano",
-			"breadSizes": "15cm",
-			"meatType": "Frango Teriyaki",
-			"optionals": [
-				"Queijo Suiço",
-				"Barbecue",
-				"Cebola Roxa",
-				"Picles",
-				"Azeitona",
-				"Rúcula",
-				"Bacon"
-			],
-			"sideDishes": [
-				"Milk Shake",
-				"Cookie",
-				"Brownie"
-			],
-			"status": "Solicitado",
-			"id": 9
-		},
-		{
-			"userName": "Wellington",
-			"breadType": "Parmesão e Orégano",
-			"breadSizes": "30cm",
-			"meatType": "Filé Mignon",
-			"optionals": [
-				"Bacon",
-				"Rúcula",
-				"Cebola Roxa",
-				"Picles",
-				"Azeitona",
-				"Barbecue",
-				"Mostarda Escura",
-				"Queijo Suiço"
-			],
-			"sideDishes": [
-				"Refrigerante + Batata"
-			],
-			"status": "Solicitado",
-			"id": 10
-		}
-	]
+  "ingredients": {
+    "breadType": [
+      {
+        "id": 1,
+        "type": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "type": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "type": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "type": "Integral"
+      },
+      {
+        "id": 5,
+        "type": "9 grãos"
+      }
+    ],
+    "breadSizes": [
+      {
+        "id": 1,
+        "type": "15cm"
+      },
+      {
+        "id": 2,
+        "type": "30cm"
+      },
+      {
+        "id": 3,
+        "type": "45cm"
+      }
+    ],
+    "meatType": [
+      {
+        "id": 1,
+        "type": "Veggie Burger"
+      },
+      {
+        "id": 2,
+        "type": "Alcatra"
+      },
+      {
+        "id": 3,
+        "type": "Picanha"
+      },
+      {
+        "id": 4,
+        "type": "Filé Mignon"
+      },
+      {
+        "id": 5,
+        "type": "Maminha"
+      },
+      {
+        "id": 6,
+        "type": "Frango Teriyaki"
+      },
+      {
+        "id": 7,
+        "type": "Almondegas"
+      },
+      {
+        "id": 8,
+        "type": "Rosbife"
+      },
+      {
+        "id": 9,
+        "type": "Peito de Peru"
+      }
+    ],
+    "optionals": [
+      {
+        "id": 1,
+        "type": "Bacon"
+      },
+      {
+        "id": 2,
+        "type": "Presunto"
+      },
+      {
+        "id": 3,
+        "type": "Salame"
+      },
+      {
+        "id": 4,
+        "type": "Tomate"
+      },
+      {
+        "id": 5,
+        "type": "Rúcula"
+      },
+      {
+        "id": 6,
+        "type": "Pepino"
+      },
+      {
+        "id": 7,
+        "type": "Azeitona"
+      },
+      {
+        "id": 8,
+        "type": "Picles"
+      },
+      {
+        "id": 9,
+        "type": "Cebola Roxa"
+      },
+      {
+        "id": 10,
+        "type": "Ketchup"
+      },
+      {
+        "id": 11,
+        "type": "Maionese"
+      },
+      {
+        "id": 12,
+        "type": "Mostarda"
+      },
+      {
+        "id": 13,
+        "type": "Mostarda Escura"
+      },
+      {
+        "id": 14,
+        "type": "Mostarda Dijon"
+      },
+      {
+        "id": 15,
+        "type": "Barbecue"
+      },
+      {
+        "id": 16,
+        "type": "Ricota"
+      },
+      {
+        "id": 17,
+        "type": "Cheddar"
+      },
+      {
+        "id": 18,
+        "type": "Queijo Prato"
+      },
+      {
+        "id": 19,
+        "type": "Queijo Suiço"
+      },
+      {
+        "id": 20,
+        "type": "Queijo Brie"
+      }
+    ],
+    "sideDishes": [
+      {
+        "id": 1,
+        "type": "Refrigerante + Batata"
+      },
+      {
+        "id": 2,
+        "type": "Refrigerante"
+      },
+      {
+        "id": 3,
+        "type": "Batata"
+      },
+      {
+        "id": 4,
+        "type": "Milk Shake"
+      },
+      {
+        "id": 5,
+        "type": "Casquinha"
+      },
+      {
+        "id": 6,
+        "type": "Cookie"
+      },
+      {
+        "id": 7,
+        "type": "Brownie"
+      },
+      {
+        "id": 8,
+        "type": "Água"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "type": "Solicitado"
+    },
+    {
+      "id": 2,
+      "type": "Em produção"
+    },
+    {
+      "id": 3,
+      "type": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "name": "Laura",
+      "breads": "Italiano Branco",
+      "sizeBreads": "30cm",
+      "meats": "Picanha",
+      "optionals": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "sideDishes": [
+        "Batata"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "name": "Well",
+      "breads": "Parmesão e Orégano",
+      "sizeBreads": "15cm",
+      "meats": "Veggie Burger",
+      "optionals": [
+        "Pepino",
+        "Picles",
+        "Azeitona"
+      ],
+      "sideDishes": [
+        "Refrigerante + Batata"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "name": "Marina",
+      "breads": "Italiano Branco",
+      "sizeBreads": "15cm",
+      "meats": "Filé Mignon",
+      "optionals": [
+        "Bacon",
+        "Tomate"
+      ],
+      "sideDishes": [
+        "Refrigerante + Batata"
+      ],
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "name": "Gustavo",
+      "breads": "Parmesão e Orégano",
+      "sizeBreads": "45cm",
+      "meats": "Filé Mignon",
+      "optionals": [
+        "Cheddar",
+        "Bacon"
+      ],
+      "sideDishes": [
+        "Batata",
+        "Milk Shake"
+      ],
+      "status": "Solicitado",
+      "id": 4
+    },
+    {
+      "name": "Helena",
+      "breads": "Italiano Branco",
+      "sizeBreads": "15cm",
+      "meats": "Picanha",
+      "optionals": [
+        "Cebola Roxa",
+        "Picles"
+      ],
+      "sideDishes": [
+        "Refrigerante"
+      ],
+      "status": "Solicitado",
+      "id": 5
+    },
+    {
+      "name": "Bruninha",
+      "breads": "3 Queijos",
+      "sizeBreads": "30cm",
+      "meats": "Maminha",
+      "optionals": [
+        "Bacon",
+        "Picles"
+      ],
+      "sideDishes": [
+        "Batata",
+        "Casquinha"
+      ],
+      "status": "Solicitado",
+      "id": 6
+    },
+    {
+      "name": "Mada",
+      "breads": "Integral",
+      "sizeBreads": "45cm",
+      "meats": "Picanha",
+      "optionals": [
+        "Cheddar"
+      ],
+      "sideDishes": [
+        "Batata",
+        "Milk Shake",
+        "Casquinha"
+      ],
+      "status": "Solicitado",
+      "id": 7
+    },
+    {
+      "name": "Joaquina",
+      "breads": "Parmesão e Orégano",
+      "sizeBreads": "30cm",
+      "meats": "Frango Teriyaki",
+      "optionals": [
+        "Rúcula",
+        "Tomate",
+        "Cebola Roxa",
+        "Azeitona",
+        "Picles",
+        "Mostarda",
+        "Barbecue",
+        "Queijo Suiço"
+      ],
+      "sideDishes": [
+        "Milk Shake",
+        "Cookie",
+        "Batata"
+      ],
+      "status": "Solicitado",
+      "id": 8
+    },
+    {
+      "userName": "Eu mesma, Maria do Bairro",
+      "breadType": "Parmesão e Orégano",
+      "breadSizes": "15cm",
+      "meatType": "Frango Teriyaki",
+      "optionals": [
+        "Queijo Suiço",
+        "Barbecue",
+        "Cebola Roxa",
+        "Picles",
+        "Azeitona",
+        "Rúcula",
+        "Bacon"
+      ],
+      "sideDishes": [
+        "Milk Shake",
+        "Cookie",
+        "Brownie"
+      ],
+      "status": "Solicitado",
+      "id": 9
+    },
+    {
+      "userName": "Wellington",
+      "breadType": "Parmesão e Orégano",
+      "breadSizes": "30cm",
+      "meatType": "Filé Mignon",
+      "optionals": [
+        "Bacon",
+        "Rúcula",
+        "Cebola Roxa",
+        "Picles",
+        "Azeitona",
+        "Barbecue",
+        "Mostarda Escura",
+        "Queijo Suiço"
+      ],
+      "sideDishes": [
+        "Refrigerante + Batata"
+      ],
+      "status": "Solicitado",
+      "id": 10
+    },
+    {
+      "userName": "Laura",
+      "breadType": "Italiano Branco",
+      "breadSizes": "30cm",
+      "meatType": "Frango Teriyaki",
+      "optionals": [
+        "Bacon",
+        "Tomate",
+        "Rúcula",
+        "Azeitona"
+      ],
+      "sideDishes": [
+        "Refrigerante + Batata",
+        "Cookie"
+      ],
+      "status": "Solicitado",
+      "id": 11
+    }
+  ]
 }
