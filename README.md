@@ -66,12 +66,20 @@ Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquir
 
 ## Competencias
 <div>
-	<img align="center" alt="Js" height="30" width="100" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
-	<img align="center" alt="Js" height="30" width="100" src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white">
-	<img align="center" alt="Js" height="30" width="100" src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E">
-	<img src="http://img.shields.io/static/v1?label=Made%20with&message=Visual%20Studio%20Code&color=007ACC&style=for-the-badge&logo=visualstudiocode"/>
-	<img src="http://img.shields.io/static/v1?label=Fake%20Api%20REST&message=JSON%20Server&color=007ACC&style=for-the-badge"/>
+	<img align="center" alt="Ubuntu" height="30" width="100" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+	<img align="center" alt="ESLint" height="30" width="100" src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white">
+	<img align="center" alt="Prettier" height="30" width="100" src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E">
+	<img align="center" alt="Editor-config" height="30" width="130" src="https://img.shields.io/badge/Editor%20Config-E0EFEF?style=for-the-badge&logo=editorconfig&logoColor=000">
+	<img align="center" alt="NPM" height="30" width="100" src="https://img.shields.io/badge/NPM-F00?style=for-the-badge&logo=npm&logoColor=red">
+	<img align="center" alt="Node" height="30" width="100" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+</div>
 
+<br/>
+
+<div>
+	<img src="http://img.shields.io/static/v1?label=Made%20with&message=Visual%20Studio%20Code&color=007ACC&style=for-the-badge&logo=visualstudiocode"/>
+	<br/>
+	<img src="http://img.shields.io/static/v1?label=Fake%20Api%20REST&message=JSON-Server&color=007ACC&style=for-the-badge&logo=json"/>
 </div>
 
 <br/>
