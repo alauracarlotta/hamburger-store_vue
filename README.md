@@ -85,9 +85,10 @@ Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquir
 <br/>
 
 ## Features
- - [x] Cadastro
- - [x] Delete
- - [ ] Relatório
+ - [x] Cadastro de Pedido
+ - [ ] Lista de Pedidos
+ - [ ] Status de Pedidos
+ - [ ] Deletar pedidos
 
 <br/>
 
@@ -100,15 +101,21 @@ git clone https://github.com/lauracarlotta/hamburger-store_vue.git
 
 # Install dependences
 npm install
+```
 
-# Compiles and hot-reloads for development (FRONT-END)
+```bash
+### --> FRONT-END SERVER <-- ###
 npm run serve
 
+# Compiles and hot-reloads for development
 ## O servidor iniciará na porta:8080 - acesse <http://localhost:8080>
+```
 
-# Compiles and hot-reloads for development (BACK-END and DATABASE)
+```bash
+### --> BACK-END SERVER <-- ###
 npm run backend
 
+# Compiles and hot-reloads for development (FAKE API REST)
 ## O servidor iniciará na porta:3000 - acesse <http://localhost:3000>
 ```
 
