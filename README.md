@@ -177,4 +177,3 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
  - [ ] Ver competencias
  - [ ] Fazer agradecimentos descritivos
  - [ ] Resumo do author
-
