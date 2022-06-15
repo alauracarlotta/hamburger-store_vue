@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/static/v1?label=Vue.JS&message=framework&color=4FC08D&style=for-the-badge&logo=vuedotjs"/>
 <img src="https://img.shields.io/static/v1?label=SASS&message=pre-processor&color=CC6699&style=for-the-badge&logo=sass"/>
 <img src="https://img.shields.io/github/repo-size/lauracarlotta/hamburger-store_vue?color=FF5&style=for-the-badge">
-<img src="https://img.shields.io/github/last-commit/lauracarlotta/hamburger-store_vue?color=e05c5c&style=for-the-badge">	
+<img src="https://img.shields.io/github/last-commit/lauracarlotta/hamburger-store_vue?color=e05c5c&style=for-the-badge">
 <a href="https://github.com/lauracarlotta/hamburger-store_vue/blob/main/LICENSE"><img src="https://img.shields.io/github/license/lauracarlotta/hamburger-store_vue?color=258AAF&style=for-the-badge"></a>
 
 </div>
@@ -67,9 +67,11 @@ Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquir
 ## Competencias
 <div>
 	<img align="center" alt="Js" height="30" width="100" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
-	<img align="center" alt="Js" height="30" width="100" src="padrão bem">
 	<img align="center" alt="Js" height="30" width="100" src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white">
 	<img align="center" alt="Js" height="30" width="100" src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E">
+	<img src="http://img.shields.io/static/v1?label=Made%20with&message=Visual%20Studio%20Code&color=007ACC&style=for-the-badge&logo=visualstudiocode"/>
+	<img src="http://img.shields.io/static/v1?label=Fake%20Api%20REST&message=JSON%20Server&color=007ACC&style=for-the-badge"/>
+
 </div>
 
 <br/>
@@ -125,7 +127,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   <a href="https://www.linkedin.com/in/lauracarlotta" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:carlotta.custodio@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </div>
-	
+
 <br/>
 
 ## Agradecimentos
@@ -153,12 +155,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
  - [ ] Pessoas Desenvolvedoras do Projeto;
  - [ ] Licença.
  - [ ] Passar tudo para o inglês
-
- Adicionar imagens do desktop - gif
- Adicionar imagens do desktop - mobile
- Terminar o projeto
- Adicionar nota sobre o que eu fiz com backend
- Ver competencias
- Fazer agradecimentos descritivos
- Resumo do author
+ - [ ] Adicionar imagens do desktop - gif
+ - [ ] Adicionar imagens do desktop - mobile
+ - [ ] Terminar o projeto
+ - [ ] Adicionar nota sobre o que eu fiz com backend
+ - [ ] Ver competencias
+ - [ ] Fazer agradecimentos descritivos
+ - [ ] Resumo do author
 
