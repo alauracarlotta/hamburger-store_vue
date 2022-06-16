@@ -1,0 +1,91 @@
+@import '@/style.scss';
+
+#burger-table {
+	margin: 0 auto;
+	max-width: 1200px;
+
+	#burger-table-heading,
+	#burger-table-rows {
+		display: flex;
+		flex-wrap: wrap;
+
+		.burger-table-row {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+			padding: .75rem;
+			border-bottom: 1px solid $color-light-gray;
+
+			.order-number {
+				width: 5%;
+			}
+
+			div {
+				width: 12%;
+
+				&:nth-child(3) {
+					width: 14%;
+				}
+
+				&:nth-child(4) {
+					width: 13%;
+				}
+
+				&:nth-child(5) {
+					width: 12%;
+				}
+
+				&:nth-child(7) {
+					width: 18%;
+				}
+
+				.status {
+					margin-bottom: 10px;
+				}
+
+				.delete-btn {
+					@include btn-submit;
+					background-color: $color-dark-gray;
+					color: $color-medium-yellow;
+					border: 2px solid $color-dark-border;
+
+					&:hover {
+						background-color: transparent;
+						color: $color-dark-gray;
+					}
+				}
+			}
+		}
+	}
+
+	#burger-table-heading {
+		border-bottom: 3px solid $color-light-gray;
+		font-weight: bold;
+		padding: .75rem;
+		margin: 0 auto;
+
+		.order-id {
+			width: 5%;
+		}
+
+		div {
+			width: 12%;
+
+			&:nth-child(3) {
+				width: 14%;
+			}
+
+			&:nth-child(4) {
+				width: 13%;
+			}
+
+			&:nth-child(5) {
+				width: 12%;
+			}
+
+			&:nth-child(7) {
+				width: 18%;
+			}
+		}
+	}
+}
