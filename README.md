@@ -70,7 +70,7 @@ Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquir
 	<img align="center" alt="ESLint" height="30" width="100" src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white">
 	<img align="center" alt="Prettier" height="30" width="100" src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E">
 	<img align="center" alt="Editor-config" height="30" width="130" src="https://img.shields.io/badge/Editor%20Config-E0EFEF?style=for-the-badge&logo=editorconfig&logoColor=000">
-	<img align="center" alt="NPM" height="30" width="100" src="https://img.shields.io/badge/NPM-F00?style=for-the-badge&logo=npm&logoColor=red">
+	<img align="center" alt="NPM" height="30" width="90" src="https://img.shields.io/badge/NPM-F00?style=for-the-badge&logo=npm&logoColor=red">
 	<img align="center" alt="Node" height="30" width="100" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
 </div>
 
@@ -137,7 +137,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 </div>
 
 <div align="center">
-  <a href="https://www.instagram.com/carlotta.front" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+  <a href="https://www.instagram.com/carlota.front" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
   <a href="https://medium.com/@laura.carlotta" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/lauracarlotta" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:carlotta.custodio@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -147,33 +147,31 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Agradecimentos
  - Wellington
- - Mateus Battis
+ - Mateus Battist
  - Coder
  - udemy
 
 <br/>
 
-
 ==========================================
 
 # Ainda falta
 
- - [ ] Título e Imagem de capa;
- - [ ] Badges;
- - [ ] Índice;
- - [ ] Descrição do Projeto;
- - [ ] Status do Projeto;
+ - [x] Título e Imagem de capa;
+ - [x] Badges;
+ - [x] Índice;
+ - [ ] Descrição do Projeto; => Passar para inglês
+ - [x] Status do Projeto;
  - [ ] Funcionalidades e Demonstração da Aplicação;
- - [ ] Acesso ao Projeto;
+ - [x] Acesso ao Projeto;
  - [ ] Tecnologias utilizadas;
  - [ ] Pessoas Contribuidoras;
  - [ ] Pessoas Desenvolvedoras do Projeto;
- - [ ] Licença.
- - [ ] Passar tudo para o inglês
+ - [x] Licença.
  - [ ] Adicionar imagens do desktop - gif
  - [ ] Adicionar imagens do desktop - mobile
  - [ ] Terminar o projeto
  - [ ] Adicionar nota sobre o que eu fiz com backend
- - [ ] Ver competencias
+ - [x] Ver competencias
  - [ ] Fazer agradecimentos descritivos
  - [ ] Resumo do author
