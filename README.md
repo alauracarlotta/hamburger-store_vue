@@ -13,32 +13,32 @@
 </div>
 
 <div align="center">
-	<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+	<img src="http://img.shields.io/static/v1?label=STATUS&message=Under%20Construction&color=RED&style=for-the-badge"/>
 </div>
 
 #
 
 <p align="center">
- <a href="#sobre-o-projeto">Sobre o projeto</a> |
+ <a href="#about-project">About Project</a> |
  <a href="#layout-mobile">Layout Mobile</a> |
  <a href="#layout-desktop">Layout Desktop</a> |
- <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a> |
- <a href="#competencias">Competencias</a> |
+ <a href="#technologies">Technologies</a> |
+ <a href="#skills">Skills</a> |
  <a href="#features">Features</a> |
  <a href="#project-setup">Project Setup</a> |
  <a href="#author">Author</a> |
- <a href="#agradecimentos">Agradecimentos</a>
+ <a href="#thanks">Thanks</a>
 </p>
 
 <br/>
 
-<h4 align="center">🚧 PROJETO em Construção 🚧 </h4>
+<h4 align="center">🚧 PROJECT under Construction 🚧 </h4>
 
 <br/>
 
-## Sobre o projeto
+## About Project
 
-Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquiridos sobre estudo feitos com o framework VueJs.
+Hamburger Store is a project to consolidate knologes about studies with Vue.JS framework. It was contruct a fake api rest to simulate datas and consuming with Vue. In there was used SASS pre-processor and tools like example prettier, eslint and editor config to facility design pattern and a model that help developers in th code.
 
 <br/>
 
@@ -52,7 +52,7 @@ Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquir
 
 <br/>
 
-## Tecnologias Utilizadas
+## Technologies
 <div style="display: inline-block;">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
@@ -64,7 +64,7 @@ Hamburguer Store é um projeto que visa a consolidação de conhecimentos adquir
 
 <br/>
 
-## Competencias
+## Skills
 <div>
 	<img align="center" alt="Ubuntu" height="30" width="100" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
 	<img align="center" alt="ESLint" height="30" width="100" src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white">
@@ -145,7 +145,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 <br/>
 
-## Agradecimentos
+## Thanks
  - Wellington
  - Mateus Battist
  - Coder
@@ -164,7 +164,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
  - [x] Status do Projeto;
  - [ ] Funcionalidades e Demonstração da Aplicação;
  - [x] Acesso ao Projeto;
- - [ ] Tecnologias utilizadas;
+ - [x] Tecnologias utilizadas;
  - [ ] Pessoas Contribuidoras;
  - [ ] Pessoas Desenvolvedoras do Projeto;
  - [x] Licença.
@@ -175,3 +175,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
  - [x] Ver competencias
  - [ ] Fazer agradecimentos descritivos
  - [ ] Resumo do author
+ - [ ] Fazer a construção do mobile
