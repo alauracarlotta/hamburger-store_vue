@@ -38,7 +38,7 @@
 
 ## About Project
 
-Hamburger Store is a project to consolidate knologes about studies with Vue.JS framework. It was contruct a fake api rest to simulate datas and consuming with Vue. In there was used SASS pre-processor and tools like example prettier, eslint and editor config to facility design pattern and a model that help developers in th code.
+Hamburger Store is a project to consolidate knologes about studies with Vue.JS framework. It was contruct a fake api rest to simulate datas and consuming with Vue. In there was used SASS pre-processor and tools like example prettier, eslint and editor config to facility design pattern and a model that help developers in the code.
 
 <br/>
 
