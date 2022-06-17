@@ -146,7 +146,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 <br/>
 
 ## Thanks
- - Wellington
+ - Wellington, my friend, husband and mentor!
  - Mateus Battist
  - Coder
  - udemy
