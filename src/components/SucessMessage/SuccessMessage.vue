@@ -18,4 +18,4 @@ export default {
 }
 </script>
 
-<style lang="scss" src="./SucessMessage.scss" scoped />
+<style lang="scss" src="./SuccessMessage.scss" scoped />

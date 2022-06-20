@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<SucessMessage :msg="msg" v-show="msg"/>
 		<div>
+			<SuccessMessage :msg="msg" v-show="msg" />
 			<form id="burguerForm" @submit="createBurger">
 				<!-- User Name -->
 				<div class="input-container">
@@ -78,13 +78,13 @@
 
 <script>
 import axios from 'axios';
-import SucessMessage from '../SucessMessage/SucessMessage.vue';
+import SuccessMessage from '../SucessMessage/SuccessMessage.vue';
 
 export default {
 	name: 'BurguerForm',
 
 	components: {
-		SucessMessage,
+		SuccessMessage,
 	},
 
 	data() {
@@ -130,7 +130,7 @@ export default {
 
 			const urlOrders = 'http://localhost:3000/burgers';
 
-			axios
+			await axios
 				.post(urlOrders, {
 					userName: this.userName,
 					breadType: this.breadType,
@@ -148,11 +148,12 @@ export default {
 					----------------------------- */
 
 					this.msg = `O pedido nº${response.data.id} foi realizado com sucesso!`;
-
 				})
 				.catch((error) => {
 					console.log(error);
 				});
+
+				this.scrollToTop();
 
 				setTimeout(() => {
 					this.msg = '';
@@ -167,6 +168,10 @@ export default {
 				this.meatType = '';
 				this.optionals = '';
 				this.sideDishes = '';
+		},
+
+		scrollToTop() {
+			window.scrollTo(0,70);
 		}
 	},
 

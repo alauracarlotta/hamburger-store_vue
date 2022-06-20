@@ -121,8 +121,26 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
 	name: "DashboardVue",
+
+	data() {
+		return {
+			burgers: null,
+			status:null
+		}
+	},
+
+	methods: {
+		getOrders() {
+			async axios
+				.get({
+					
+				})
+		}
+	}
 }
 </script>
 
