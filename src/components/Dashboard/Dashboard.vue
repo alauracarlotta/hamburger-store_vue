@@ -43,7 +43,7 @@
 							{{ ref.type }}
 						</option>
 					</select>
-					<button class="delete-btn">Cancelar</button>
+					<button class="delete-btn" @click="deleteBurger(burger.id)">Cancelar</button>
 				</div>
 			</div>
 		</div>
@@ -100,6 +100,22 @@ export default {
 				.catch((response) => {
 					console.log(response);
 				})
+		},
+
+		/* -------------------
+			Delete Burger
+		---------------------- */
+		async deleteBurger(orderId) {
+			console.log(orderId);
+
+			const urlOrders = `http://localhost:3000/burgers/${orderId}`;
+
+			await axios
+				.delete(urlOrders)
+				.then(() => {
+					console.log('Delete successful');
+				})
+			this.getOrders();
 		}
 	},
 

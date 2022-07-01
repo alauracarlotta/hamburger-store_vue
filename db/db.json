@@ -207,21 +207,6 @@
   ],
   "burgers": [
     {
-      "userName": "Laura",
-      "breadType": "Italiano Branco",
-      "breadSizes": "30cm",
-      "meatType": "Picanha",
-      "optionals": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "sideDishes": [
-        "Batata"
-      ],
-      "status": "Solicitado",
-      "id": 1
-    },
-    {
       "userName": "Well",
       "breadType": "Parmesão e Orégano",
       "breadSizes": "15cm",
@@ -337,28 +322,6 @@
       ],
       "status": "Solicitado",
       "id": 8
-    },
-    {
-      "userName": "Eu mesma, Maria do Bairro",
-      "breadType": "Parmesão e Orégano",
-      "breadSizes": "15cm",
-      "meatType": "Frango Teriyaki",
-      "optionals": [
-        "Queijo Suiço",
-        "Barbecue",
-        "Cebola Roxa",
-        "Picles",
-        "Azeitona",
-        "Rúcula",
-        "Bacon"
-      ],
-      "sideDishes": [
-        "Milk Shake",
-        "Cookie",
-        "Brownie"
-      ],
-      "status": "Solicitado",
-      "id": 9
     },
     {
       "userName": "Wellington",
