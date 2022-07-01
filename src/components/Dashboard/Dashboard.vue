@@ -129,17 +129,43 @@ export default {
 	data() {
 		return {
 			burgers: null,
-			status:null
+			status: null
 		}
 	},
 
 	methods: {
-		getOrders() {
-			async axios
-				.get({
-					
+		async getOrders() {
+			const urlOrders = 'http://localhost:3000/burgers';
+
+			await axios
+				.get(urlOrders)
+				.then((response) => {
+					console.log('resposta', response.data);
+					this.burgers = response.data;
+				})
+				.catch((response) => {
+					console.log(response);
+				})
+		},
+
+		async getStatus() {
+			const urlStatus = 'http://localhost:3000/status';
+
+			await axios
+				.get(urlStatus)
+				.then((response) => {
+					console.log('status', response.data);
+					this.status = response.data;
+				})
+				.catch((response) => {
+					console.log(response);
 				})
 		}
+	},
+
+	mounted() {
+		this.getOrders();
+		this.getStatus();
 	}
 }
 </script>
