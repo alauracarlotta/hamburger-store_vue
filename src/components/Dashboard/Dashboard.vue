@@ -16,97 +16,24 @@
 
 		<div id="burger-table-rows">
 			<!-- Aqui faremos o nosso v-for -->
-			<div class="burger-table-row">
-				<div class="order-number">1</div>
-				<div>Jão</div>
-				<div>Parmesão com Orégano</div>
-				<div>30cm</div>
-				<div>Alcatra</div>
+			<div class="burger-table-row" v-for="burger in burgers" :key="burger.id">
+				<div class="order-number">{{ burger.id }}</div>
+				<div>{{ burger.userName }}</div>
+				<div>{{ burger.breadType }}</div>
+				<div>{{ burger.breadSizes }}</div>
+				<div>{{ burger.meatType }}</div>
 				<div>
 					<ul>
-						<li>Azeitona</li>
-						<li>Bacon</li>
+						<li v-for="(optionals, index) in burger.optionals" :key="index">
+							{{ optionals }}
+						</li>
 					</ul>
 				</div>
 				<div>
 					<ul>
-						<li>Batata</li>
-						<li>Milk Shake</li>
-					</ul>
-				</div>
-				<div>
-					<select name="status" class="status">
-						<option value="">Selecione o Status: </option>
-					</select>
-					<button class="delete-btn">Cancelar</button>
-				</div>
-			</div>
-			<div class="burger-table-row">
-				<div class="order-number">1</div>
-				<div>Jão</div>
-				<div>Parmesão com Orégano</div>
-				<div>30cm</div>
-				<div>Alcatra</div>
-				<div>
-					<ul>
-						<li>Azeitona</li>
-						<li>Bacon</li>
-					</ul>
-				</div>
-				<div>
-					<ul>
-						<li>Batata</li>
-						<li>Milk Shake</li>
-					</ul>
-				</div>
-				<div>
-					<select name="status" class="status">
-						<option value="">Selecione o Status: </option>
-					</select>
-					<button class="delete-btn">Cancelar</button>
-				</div>
-			</div>
-			<div class="burger-table-row">
-				<div class="order-number">1</div>
-				<div>Jão</div>
-				<div>Parmesão com Orégano</div>
-				<div>30cm</div>
-				<div>Alcatra</div>
-				<div>
-					<ul>
-						<li>Azeitona</li>
-						<li>Bacon</li>
-					</ul>
-				</div>
-				<div>
-					<ul>
-						<li>Batata</li>
-						<li>Milk Shake</li>
-					</ul>
-				</div>
-				<div>
-					<select name="status" class="status">
-						<option value="">Selecione o Status: </option>
-					</select>
-					<button class="delete-btn">Cancelar</button>
-				</div>
-			</div>
-			<div class="burger-table-row">
-				<div class="order-number">1</div>
-				<div>Jão</div>
-				<div>Parmesão com Orégano</div>
-				<div>30cm</div>
-				<div>Alcatra</div>
-				<div>
-					<ul>
-						<li>Azeitona</li>
-						<li>Bacon</li>
-					</ul>
-				</div>
-				<div>
-					<ul>
-						<li>Batata</li>
-						<li>Milk Shake</li>
+						<li v-for="(sideDishes, index) in burger.sideDishes" :key="index">
+							{{ sideDishes }}
+						</li>
 					</ul>
 				</div>
 				<div>
@@ -129,11 +56,15 @@ export default {
 	data() {
 		return {
 			burgers: null,
-			status: null
+			burger_id: null,
+			status: []
 		}
 	},
 
 	methods: {
+		/* -----------------
+			Buscar Pedidos
+		-------------------- */
 		async getOrders() {
 			const urlOrders = 'http://localhost:3000/burgers';
 
@@ -148,6 +79,9 @@ export default {
 				})
 		},
 
+		/* -------------------
+			Resgatar status
+		---------------------- */
 		async getStatus() {
 			const urlStatus = 'http://localhost:3000/status';
 
