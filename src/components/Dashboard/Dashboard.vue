@@ -38,7 +38,10 @@
 				</div>
 				<div>
 					<select name="status" class="status">
-						<option value="">Selecione o Status: </option>
+						<option>Selecione o Status: </option>
+						<option :value="ref.type" v-for="ref in status" :key="ref.id" :selected="burger.status == ref.type">
+							{{ ref.type }}
+						</option>
 					</select>
 					<button class="delete-btn">Cancelar</button>
 				</div>
@@ -77,6 +80,9 @@ export default {
 				.catch((response) => {
 					console.log(response);
 				})
+
+
+			this.getStatus();
 		},
 
 		/* -------------------
@@ -99,7 +105,6 @@ export default {
 
 	mounted() {
 		this.getOrders();
-		this.getStatus();
 	}
 }
 </script>
