@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div>
-			<SuccessMessage :msg="msg" v-show="msg" />
+			<StatusMessages :msg="msg" v-show="msg" />
 			<form id="burguerForm" @submit="createBurger">
 				<!-- User Name -->
 				<div class="input-container">
@@ -78,13 +78,13 @@
 
 <script>
 import axios from 'axios';
-import SuccessMessage from '../SucessMessage/SuccessMessage.vue';
+import StatusMessages from '../StatusMessages/StatusMessages.vue';
 
 export default {
 	name: 'BurguerForm',
 
 	components: {
-		SuccessMessage,
+		StatusMessages,
 	},
 
 	data() {

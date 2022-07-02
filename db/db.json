@@ -207,22 +207,6 @@
   ],
   "burgers": [
     {
-      "userName": "Well",
-      "breadType": "Parmesão e Orégano",
-      "breadSizes": "15cm",
-      "meatType": "Veggie Burger",
-      "optionals": [
-        "Pepino",
-        "Picles",
-        "Azeitona"
-      ],
-      "sideDishes": [
-        "Refrigerante + Batata"
-      ],
-      "status": "Solicitado",
-      "id": 2
-    },
-    {
       "userName": "Marina",
       "breadType": "Italiano Branco",
       "breadSizes": "15cm",
@@ -250,7 +234,7 @@
         "Batata",
         "Milk Shake"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 4,
       "headers": {
         "Content-Type": "application/json"
@@ -275,22 +259,6 @@
       "id": 5
     },
     {
-      "userName": "Bruninha",
-      "breadType": "3 Queijos",
-      "breadSizes": "30cm",
-      "meatType": "Maminha",
-      "optionals": [
-        "Bacon",
-        "Picles"
-      ],
-      "sideDishes": [
-        "Batata",
-        "Casquinha"
-      ],
-      "status": "Solicitado",
-      "id": 6
-    },
-    {
       "userName": "Mada",
       "breadType": "Integral",
       "breadSizes": "45cm",
@@ -303,7 +271,7 @@
         "Milk Shake",
         "Casquinha"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 7
     },
     {

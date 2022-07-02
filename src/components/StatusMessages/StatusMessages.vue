@@ -10,7 +10,7 @@
 
 <script>
 export default {
-	name: 'SucessMessage',
+	name: 'StatusMessages',
 
 	props: {
 		msg: String,
@@ -18,4 +18,4 @@ export default {
 }
 </script>
 
-<style lang="scss" src="./SuccessMessage.scss" scoped />
+<style lang="scss" src="./StatusMessages.scss" scoped />

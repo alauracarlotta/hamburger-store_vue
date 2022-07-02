@@ -1,4 +1,6 @@
 <template>
+	<StatusMessages :msg="msg" v-show="msg" />
+
 	<!-- Validação se há burgers, v-if -->
 	<div id="burger-table">
 		<div>
@@ -52,15 +54,21 @@
 
 <script>
 import axios from 'axios';
+import StatusMessages from '../StatusMessages/StatusMessages.vue';
 
 export default {
 	name: "DashboardVue",
+
+	components: {
+		StatusMessages
+	},
 
 	data() {
 		return {
 			burgers: null,
 			burger_id: null,
-			status: []
+			status: [],
+			msg: null
 		}
 	},
 
@@ -114,7 +122,13 @@ export default {
 				.delete(urlOrders)
 				.then(() => {
 					console.log('Delete successful');
+					this.msg = `O pedido nº${orderId} foi REMOVIDO com sucesso!`;
 				})
+
+			this.scrollToTop();
+
+			this.removeMessage();
+
 			this.getOrders();
 		},
 
@@ -132,13 +146,36 @@ export default {
 				})
 				.then(() => {
 					console.log('Order Updated');
+					this.msg = `Status atual do pedido nº${orderId}: ${option}`;
 				})
+
+			this.scrollToTop();
+
+			this.removeMessage();
+
+			this.getOrders();
+		},
+
+		removeMessage() {
+			setTimeout(() => {
+				this.msg = '';
+			}, 3000)
+		},
+
+		scrollToTop() {
+			window.scrollTo(0,70);
 		}
 	},
 
 	mounted() {
 		this.getOrders();
 	}
+
+	/* -------------------------------------------------------------
+		Ex: A criterio de melhoria: todas as infos do campo msg,
+			podem vir por props, podemos também deixar o temporizador
+			para retirar a msg como default e dentro do componente
+	---------------------------------------------------------------- */
 }
 </script>
 
