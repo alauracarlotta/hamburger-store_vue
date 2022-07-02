@@ -37,7 +37,7 @@
 					</ul>
 				</div>
 				<div>
-					<select name="status" class="status">
+					<select name="status" class="status" @change="updateStatusOrder($event, burger.id)">
 						<option>Selecione o Status: </option>
 						<option :value="ref.type" v-for="ref in status" :key="ref.id" :selected="burger.status == ref.type">
 							{{ ref.type }}
@@ -116,6 +116,23 @@ export default {
 					console.log('Delete successful');
 				})
 			this.getOrders();
+		},
+
+		/* -------------------
+			Update Status
+		---------------------- */
+		async updateStatusOrder(event, orderId) {
+			const option = event.target.value;
+
+			const urlOrder = `http://localhost:3000/burgers/${orderId}`;
+
+			await axios
+				.patch(urlOrder, {
+					status: option
+				})
+				.then(() => {
+					console.log('Order Updated');
+				})
 		}
 	},
 

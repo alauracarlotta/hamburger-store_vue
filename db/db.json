@@ -251,7 +251,13 @@
         "Milk Shake"
       ],
       "status": "Solicitado",
-      "id": 4
+      "id": 4,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "status": "Em produção"
+      }
     },
     {
       "userName": "Helena",
@@ -320,7 +326,7 @@
         "Cookie",
         "Batata"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 8
     },
     {
@@ -534,63 +540,11 @@
       "sideDishes": [
         "Casquinha"
       ],
-      "status": "Solicitado",
-      "id": 22
-    },
-    {
-      "userName": "Eu mesma, Helena de Tróia",
-      "breadType": "Parmesão e Orégano",
-      "breadSizes": "30cm",
-      "meatType": "Peito de Peru",
-      "optionals": [
-        "Rúcula",
-        "Cebola Roxa"
-      ],
-      "sideDishes": [
-        "Refrigerante + Batata"
-      ],
-      "status": "Solicitado",
-      "id": 23
-    },
-    {
-      "userName": "Eu mesma, Xena a Princesa Guerreira",
-      "breadType": "9 grãos",
-      "breadSizes": "45cm",
-      "meatType": "Frango Teriyaki",
-      "optionals": [
-        "Barbecue",
-        "Pepino",
-        "Queijo Prato",
-        "Ketchup",
-        "Azeitona"
-      ],
-      "sideDishes": [
-        "Água"
-      ],
-      "status": "Solicitado",
-      "id": 24
-    },
-    {
-      "userName": "Du, Dudu e Edu",
-      "breadType": "Parmesão e Orégano",
-      "breadSizes": "45cm",
-      "meatType": "Filé Mignon",
-      "optionals": [
-        "Bacon",
-        "Rúcula",
-        "Cebola Roxa",
-        "Picles",
-        "Azeitona",
-        "Mostarda",
-        "Barbecue",
-        "Queijo Prato"
-      ],
-      "sideDishes": [
-        "Refrigerante + Batata",
-        "Cookie"
-      ],
-      "status": "Solicitado",
-      "id": 25
+      "status": "Em produção",
+      "id": 22,
+      "headers": {
+        "Content-Type": "application/json"
+      }
     }
   ]
 }
