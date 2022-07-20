@@ -21,7 +21,7 @@
 <div align="center">
 	<strong><em>
 		Project link 👉
-		<a href="https://lauracarlotta.github.io/hamburger-store_vue/public/index.html">here</a>
+		<a href="https://lauracarlotta.github.io/hamburger-store_vue/public/">here</a>
 		</em></strong>
 </div>
 
