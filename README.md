@@ -16,6 +16,15 @@
 	<img src="http://img.shields.io/static/v1?label=STATUS&message=Under%20Construction&color=RED&style=for-the-badge"/>
 </div>
 
+<br/>
+
+<div align="center">
+	<strong><em>
+		Project link 👉
+		<a href="https://lauracarlotta.github.io/hamburger-store_vue/public/index.html">here</a>
+		</em></strong>
+</div>
+
 #
 
 <p align="center">
